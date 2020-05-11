@@ -2,8 +2,11 @@ import * as React from 'react';
 
 const App = () => {
     return(
-        <div>
-            <h1>Hello World!</h1>
+        <div className="app-content">
+            <div className="app-header">
+                <h1>React Starter Template</h1>
+                <p>A simple React starter with Typescript, Webpack, Babel and Express.</p>
+            </div>
         </div>
     )
 }
